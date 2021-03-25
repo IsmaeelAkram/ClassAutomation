@@ -1,5 +1,3 @@
-# LINKS.TXT IS GIT-IGNORED FOR PRIVACY
-
 import webbrowser
 import time
 import os
