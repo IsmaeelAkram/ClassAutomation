@@ -30,3 +30,7 @@ while True:
                     browser.open_new_tab(link[0])
                     links[links.index(link)] = (link[0], link[1], True)
                     os.system("say New link has been opened.")
+            else:
+                print("Link has already been open.")
+
+                    
