@@ -1,3 +1,2 @@
-// URL|TIME(24-HOUR CLOCK)
-
-https://meet.google.com|21:32
+https://meet.google.com|test| // Opens on program start
+https://meet.google.com|19:10| // Opens at 7:10pm (24-hour clock)
