@@ -22,7 +22,7 @@ while True:
     print(timestamp)
     sys.stdout.flush()
     for link in links:
-        if str(timestamp) == link[1] or link[1] == 'test':
+        if str(timestamp) == link[1] or link[1] == "test":
             if link[2] == False:
                 if "meet.google.com" in link[0]:
                     browser = webdriver.Chrome()
@@ -38,4 +38,3 @@ while True:
                     browser.open_new_tab(link[0])
                     links[links.index(link)] = (link[0], link[1], True)
                     os.system("say New link has been opened.")
-                    
