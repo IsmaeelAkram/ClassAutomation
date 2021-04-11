@@ -19,7 +19,6 @@ time.sleep(3)
 
 while True:
     timestamp = time.strftime("%H:%M")
-    print(timestamp)
     sys.stdout.flush()
     for link in links:
         if str(timestamp) == link[1] or link[1] == "test":
